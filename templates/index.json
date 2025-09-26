@@ -126,8 +126,8 @@
           "settings": {
             "image": "shopify://shop_images/image_9.png",
             "link": "",
-            "image_ratio": "adapt",
-            "width": "fit-content",
+            "image_ratio": "portrait",
+            "width": "fill",
             "custom_width": 100,
             "width_mobile": "fit-content",
             "custom_width_mobile": 100,
