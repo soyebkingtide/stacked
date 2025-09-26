@@ -2,7 +2,7 @@ header .header__column--right {
   display: none;
 }
 
-.header__column header__column--center {
+.header__column.header__column--center {
   position: absolute;
   left: 50%;
   top: 50%;
