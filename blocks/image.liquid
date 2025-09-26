@@ -19,7 +19,7 @@
 %}
 
 {% capture class %}
-  image-block image-block--{{ block.id }} image-block--height-{{ block_settings.height }} spacing-style size-style
+  image-block image-block--{{ block.id }} image-block--height-{{ block_settings.height }} spacing-style size-style position-{{ block_settings.position }}
 {% endcapture %}
 
 {% capture style %}
@@ -231,6 +231,26 @@
       "default": "fit",
       "visible_if": "{{ block.settings.image_ratio == 'adapt' }}"
     },
+
+     {
+      "type": "select",
+      "id": "position",
+      "label": "Position Image",
+      "options": [
+        {
+          "value": "absolute",
+          "label": "absolute"
+        },
+        {
+          "value": "normal",
+          "label": "Normal"
+        }
+      ],
+      "default": "normal",
+      "visible_if": "{{ block.settings.image_ratio == 'adapt' }}"
+    },
+
+    
     {
       "type": "header",
       "content": "t:content.borders"
