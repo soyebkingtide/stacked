@@ -17,4 +17,6 @@ header .header__column--right {
 
 .header-logo__image {
   width: 202px !important;
+  height: auto !important;
+  min-height: auto;
 }
