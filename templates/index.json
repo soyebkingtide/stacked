@@ -132,6 +132,7 @@
             "width_mobile": "fit-content",
             "custom_width_mobile": 100,
             "height": "fit",
+            "position": "absolute",
             "border": "none",
             "border_width": 1,
             "border_opacity": 100,
