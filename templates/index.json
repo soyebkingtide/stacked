@@ -105,28 +105,6 @@
           },
           "blocks": {}
         },
-        "image_h8e9V4": {
-          "type": "image",
-          "name": "t:names.image",
-          "settings": {
-            "link": "",
-            "image_ratio": "adapt",
-            "width": "fill",
-            "custom_width": 100,
-            "width_mobile": "fill",
-            "custom_width_mobile": 100,
-            "height": "fit",
-            "border": "none",
-            "border_width": 1,
-            "border_opacity": 100,
-            "border_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {}
-        },
         "button_PNbG3P": {
           "type": "button",
           "name": "t:names.button",
@@ -141,6 +119,29 @@
             "custom_width_mobile": 100
           },
           "blocks": {}
+        },
+        "image_h8e9V4": {
+          "type": "image",
+          "name": "t:names.image",
+          "settings": {
+            "image": "shopify://shop_images/image_9.png",
+            "link": "",
+            "image_ratio": "adapt",
+            "width": "fit-content",
+            "custom_width": 100,
+            "width_mobile": "fit-content",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
         }
       },
       "block_order": [
@@ -148,8 +149,8 @@
         "text_9pgmxA",
         "text_fDPzRJ",
         "button_H9gpTf",
-        "image_h8e9V4",
-        "button_PNbG3P"
+        "button_PNbG3P",
+        "image_h8e9V4"
       ],
       "name": "t:names.hero",
       "settings": {
@@ -168,8 +169,8 @@
         "section_width": "page-width",
         "section_height": "medium",
         "section_height_custom": 50,
-        "color_scheme": "scheme-6",
-        "toggle_overlay": true,
+        "color_scheme": "scheme-3",
+        "toggle_overlay": false,
         "overlay_color": "#12121266",
         "overlay_style": "solid",
         "gradient_direction": "to bottom",
