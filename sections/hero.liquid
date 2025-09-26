@@ -158,9 +158,9 @@
     </div>
   {%- endif -%}
 
-  {% if has_media == false and is_transparent %}
+  {% comment %} {% if has_media == false and is_transparent %}
     {{ 'hero-apparel-1' | placeholder_svg_tag: 'hero__image' }}
-  {%- endif -%}
+  {%- endif -%} {% endcomment %}
 {% endcapture %}
 
 {% capture media_blurred %}
@@ -190,9 +190,9 @@
         sizes: sizes
     }}
   {% endif %}
-  {% if has_media == false and is_transparent %}
+  {% comment %} {% if has_media == false and is_transparent %}
     {{ 'hero-apparel-1' | placeholder_svg_tag: 'hero__image' }}
-  {% endif %}
+  {% endif %} {% endcomment %}
 {% endcapture %}
 
 <div
