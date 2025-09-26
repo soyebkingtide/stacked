@@ -31,6 +31,7 @@
       "block_order": [
         "announcement_BxgCk9"
       ],
+      "disabled": true,
       "name": "t:names.announcement_bar",
       "settings": {
         "speed": 5,
@@ -49,7 +50,7 @@
           "static": true,
           "settings": {
             "hide_logo_on_home_page": false,
-            "custom_height": 36,
+            "custom_height": 85,
             "custom_height_mobile": 28,
             "padding-block-start": 0,
             "padding-block-end": 0,
@@ -60,6 +61,7 @@
         },
         "header-menu": {
           "type": "_header-menu",
+          "disabled": true,
           "static": true,
           "settings": {
             "menu": "main-menu",
@@ -88,15 +90,15 @@
         }
       },
       "settings": {
-        "logo_position": "left",
+        "logo_position": "center",
         "menu_position": "left",
         "menu_row": "top",
-        "show_search": true,
+        "show_search": false,
         "search_position": "right",
         "search_row": "top",
-        "show_country": true,
+        "show_country": false,
         "country_selector_style": false,
-        "show_language": true,
+        "show_language": false,
         "localization_font": "heading",
         "localization_font_size": "0.875rem",
         "localization_position": "right",
@@ -107,7 +109,7 @@
         "divider_width": 0,
         "divider_size": "page-width",
         "border_width": 0,
-        "color_scheme_top": "scheme-1",
+        "color_scheme_top": "scheme-2",
         "color_scheme_bottom": "",
         "color_scheme_transparent": "scheme-6",
         "enable_transparent_header_home": false,
